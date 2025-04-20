@@ -1,8 +1,16 @@
 import tkinter as tk
+# Pomodoro Timer - Beginner Friendly Version
+# Author: ABHIJITH P
+#
+# Description:
+# This is a simple Pomodoro Timer built using Python's tkinter library.
+# It features a black background with yellow text for a clean, minimalist look.
+# The timer alternates between 25-minute work sessions and 5-minute breaks.
+# Includes pause/resume, restart, and exit functionalities.
+# Designed to help improve productivity using the Pomodoro Technique.
 
-# Simple Pomodoro Timer for beginners with custom colors
-work_min = 25  # minutes for work session
-break_min = 5  # minutes for break session
+work_min = 25  
+break_min = 5  
 
 timer_id = None
 paused = False
@@ -24,7 +32,7 @@ def countdown():
 def start():
     global remaining, stopped, paused
     if not stopped:
-        return  # do nothing if timer is running
+        return  
     stopped = False
     paused = False
     remaining = work_min * 60
@@ -85,11 +93,12 @@ def finish():
     pause_btn.config(state="disabled")
     restart_btn.config(state="normal")
 
-# Setup GUI
+#GUI...
+
 root = tk.Tk()
 root.title("Pomodoro Timer")
 root.resizable(False, False)
-root.configure(bg='black')  # background color
+root.configure(bg='black')  
 
 label = tk.Label(root, text="Ready to start", font=("Helvetica", 24), fg='yellow', bg='black')
 label.pack(pady=20)
