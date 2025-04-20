@@ -1,29 +1,31 @@
-# Pomodoro Timer (Python + Tkinter)
+# POMODORO-TIMER- (Python + Tkinter)
 
-This is a simple yet functional **Pomodoro Timer** built using Python's built-in `tkinter` GUI library. Designed with a minimalist black-and-yellow theme, this app helps users manage their time effectively using the Pomodoro Technique.
+This is a beginner-friendly **Pomodoro Timer** built using Python's `tkinter` GUI library. It features a sleek black-and-yellow UI and follows the Pomodoro Technique to help improve focus and productivity.
+
+> Developed by **ABHIJITH P**
+
+---
 
 ## Features
 
 - 25-minute work sessions
 - 5-minute break sessions
-- Pause and resume functionality
-- Restart current session at any time
-- Clean and responsive UI
-- Beginner-friendly code structure
+- Pause and resume support
+- Session restart functionality
+- Simple and visually clean interface
+- Written with beginner-level Python code
 
-## Preview
-
-> Simple black background with yellow text, large fonts for better visibility, and intuitive button layout for ease of use.
+---
 
 ## Getting Started
 
-### Prerequisites
+### Requirements
 
-- Python 3.x installed on your system
+- Python 3.x
 
-### Running the App
+### How to Run
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pomodoro-timer.git
-   cd pomodoro-timer
+   git clone https://github.com/AbhijithX001/POMODORO-TIMER-.git
+   cd POMODORO-TIMER-
